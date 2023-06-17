@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Inter&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Inter&display=swap');
+
+* {
+    box-sizing: border-box
+}
+
+.rightSec {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background: #000;
+}
+.supperapp-signUp-form {
+    width: 400px;
+    margin: auto
+}
+
+.validation-msg{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 139.69%;    
+    letter-spacing: 0.02em;
+    color: #FF0000;
+    margin: 2px 0 7px 0;
+    width: 100%;
+}
+.supper-app-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 54px;
+    line-height: 139.69%;
+    color: #72DB73;
+}
+
+.create-acount-label {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.signup-form-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form-box form input[type=text],
+input[type=number] {
+    width: 400px;
+    height: 50px;
+    background: #292929;
+    border-radius: 3.81584px;
+    margin: 5px 0;
+    border: 0;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 20.0331px;
+    line-height: 139.69%;
+    letter-spacing: 0.02em;
+    color: #fbf4f4;
+}
+
+.share-permision {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.share-permision span,
+.share-permision input {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    color: #7C7C7C;
+}
+
+input[type=button] {
+    width: 400px;
+    height: 45px;
+    border: 0;
+    background: #72DB73;
+    border-radius: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 108.69%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.detail-termsConditions, .detail-privacy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 141.7%;
+    letter-spacing: 0.02em;
+    color: #7C7C7C;
+}
+.detail-privacy p{
+    margin: 0;
+}

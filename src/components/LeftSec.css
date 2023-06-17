@@ -1,0 +1,25 @@
+.LeftSec-backgroundImg{
+    width: 50%;
+    height: 100vh;
+    background: url('dj.png');
+    background-repeat: no-repeat, no-repeat;
+}
+.LeftSec-Content{
+    position: absolute;
+    left: 62px;
+bottom: 33px;
+    width: 695px;
+height: 143px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 141.69%;
+/* or 78px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}

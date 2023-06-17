@@ -1,0 +1,56 @@
+
+.browser-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    padding: 2% 5%;
+}
+
+.browser-container .app-title{
+    color: #72DB73;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Single Day';
+   
+}
+
+.profile-btn{
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background-image: url('./proImg.png');
+    background-size: cover;
+}
+
+
+.profile-browser{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movies_container{
+    margin: 1em 2em;
+    font-family: 'Roboto';
+}
+.movies_container p{
+    font-size:24px ;
+}
+.category_box{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 0;
+
+}
+.category_box h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color:#878787;
+}
+
+.movies_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
